@@ -6,16 +6,32 @@
 </head>
 <body>
 	<center><h3>Assignment 03b: Fetching Gists</h3></center>
-	<form>
-		<input type="checkBox" name="langType" value="0001">Python
-		<br>
-		<input type="checkBox" name="langType" value="0010">JSON
-		<br>
-		<input type="checkBox" name="langType" value="0100">JavaScript
-		<br>
-		<input type="checkBox" name="langType" value="1000">SQL
-		<br>		
-		<input type="button" name="search" value="Search" onclick="beginSearch()"/>
-	</form>
+	<br>
+	<section>
+		<div>
+			<input type="checkBox" name="python-ok">
+			<label>Python</label>
+		</div>
+		<div>
+			<input type="checkBox" name="json-ok">
+			<label>JSON</label>
+		</div>
+		<div>
+			<input type="checkBox" name="javascript-ok">
+			<label>JavaScript</label>
+		</div>
+		<div>
+			<input type="checkBox" name="sql-ok">
+			<label>SQL</label>
+		</div>
+		<div>
+			<input type="text" id="userInput" value="">
+			<input type="button" value="Search" onclick="beginSearch()"/>
+		</div>
+	</section>
+	
+	<!--Display Section-->
+	<h2>GISTS</h2><br>
+	<h2>FAVORITE GISTS</h2>
 </body>
 </html>
