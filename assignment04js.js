@@ -1,10 +1,8 @@
 /* JS for Ass03b */
 
-var buttons = document.getElementsByName("checkBox");
 
 function beginSearch() {
-	console.log(checkBox.value);
+	var langChoice = document.getElementsByType("langType")[0];
+	console.log(langChoice.value);
 }
 
-for (var i = 0; i < buttons.length; i++)
-	buttons[i].addEventListener("change", console.log("example"));
