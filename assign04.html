@@ -1,0 +1,40 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>Assignment 03-B: JS, AJAX, & JSON</title>
+  <link rel="stylesheet" href="assign04style.css">
+  <script src="assign04.js"></script>
+</head>
+<body>
+  <div id="titleBar">
+    Gist Search
+  </div>
+  <section id="inputSection">
+    <form>
+      <div id="optionCheck">
+        <input type="checkBox" id = "python" name="python-ok">Python
+        <input type="checkBox" id = "json" name="json-ok">JSON
+        <input type="checkBox" id = "javascript" name="javascript-ok">JavaScript
+        <input type="checkBox" id = "sql" name="sql-ok">SQL
+      </div>
+      <div id="optionCheck">
+        <input type="button" value="Search" onclick="requestGist()"/>
+      </div>
+    </form>
+	</section>
+  <section>
+    <div id="outputList">
+      <span>Gist List</span>
+      <div id="outputSentry">
+      </div>
+      
+    </div>
+    <div id="favoriteList">
+      <span>Favorites List</span>
+      <div id="favSentry">
+      </div>
+      
+    </div>
+  </section>
+</body>
+</html>
